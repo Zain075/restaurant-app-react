@@ -1,0 +1,26 @@
+Backend
+--------
+
+1. create package.json (package.json)
+    command: npm init -y
+2. Install json server (package-lock.json)
+    command: npm i json-server
+3. Create .gitignore file
+4. Create a db.json file to store data
+5. create Index.js file
+    Inside it 
+    -> 1 Import json-server
+    -> 2 Create a server
+    -> 3 setup path for db.json file
+    -> 4 Return Middleware used by json server
+    -> 5 Setup port for server
+    -> 6 Use Middleware and router
+    -> 7 to Run the server
+
+ 6. Change in package.json file   
+        "scripts": {
+    "start" : "node index.js"
+  },
+
+  8. Run the server
+        --> nodemon index.js
